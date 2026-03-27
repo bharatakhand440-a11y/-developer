@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-study-assistant"
+version = "0.1.0"
+description = "Interactive smart study assistant with IIT-level guidance"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.40.0",
+]
+
+[project.scripts]
+app = "main:main"
